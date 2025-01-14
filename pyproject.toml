@@ -20,7 +20,6 @@ classifiers = [
     "Framework :: Flask",
     "Topic :: Scientific/Engineering :: Artificial Intelligence"
 ]
-readme = "README.md"
 dependencies = [
     "tensorflow==2.12.0",
     "pandas",

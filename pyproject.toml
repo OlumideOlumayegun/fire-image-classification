@@ -1,0 +1,52 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fire-image-classifier"
+version = "1.0.0"
+description = "A Flask-based web application that detects fire in images using a CNN with transfer learning and CI/CD on Azure."
+authors = [
+    {name = "Olumide Olumayegun", email = "midemayegun@yahoo.co.uk"}
+]
+license = {text = "MIT"}
+keywords = ["deep-learning", "image-classification", "AI-generated", "real-images", "Flask", "Azure"]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Framework :: Flask",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+readme = "README.md"
+dependencies = [
+    "tensorflow==2.12.0",
+    "pandas",
+    "gdown",
+    "dvc",
+    "mlflow==2.2.2",
+    "notebook",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "python-box==6.0.2",
+    "pyYAML",
+    "tqdm",
+    "ensure==1.0.2",
+    "joblib",
+    "types-PyYAML",
+    "scipy",
+    "Flask",
+    "Flask-Cors",
+    "dagshub"
+]
+
+[project.urls]
+Documentation = "https://github.com/OlumideOlumayegun/fire-image-classification/docs"
+Source = "https://github.com/OlumideOlumayegun/fire-image-classification"
+Tracker = "https://github.com/OlumideOlumayegun/fire-image-classification/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

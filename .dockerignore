@@ -1,0 +1,14 @@
+.dvc
+.github
+artifacts
+research
+.dvcignore
+.gitignore
+dvc.lock
+note.ipynb
+inputImage.jpg
+template.py
+*.egg-info
+__pycache__/
+*.pyc
+*.pyo

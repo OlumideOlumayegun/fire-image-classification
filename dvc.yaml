@@ -9,7 +9,7 @@ stages:
 
 
   prepare_base_model:
-    cmd: python src/fire_image_classifier/pipeline/stage_02_prepare_base_model.py
+    cmd: python -m src/fire_image_classifier/pipeline/stage_02_prepare_base_model.py
     deps:
       - src/fire_image_classifier/pipeline/stage_02_prepare_base_model.py
       - src/fire_image_classifier/conf/config.yaml

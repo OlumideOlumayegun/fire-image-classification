@@ -10,7 +10,7 @@ This repository contains the complete pipeline and application for a fire image 
 - [Key Features](#key-features)
 - [Tools and Technologies](#tools-and-technologies)
 - [Project Workflow](#project-workflow)
-- [Setup Instruction](#setup-installation)
+- [Setup Instruction](#setup-instruction)
 - [Azure Deployment Workflow](#azure-deployment-workflow)
 - [Future Work](#future-work)
 - [Contributing](#contributing)
@@ -114,6 +114,8 @@ To optimize storage and retrieval, the dataset was compressed and uploaded to an
      - Builds Docker image.
      - Pushes Docker image to Azure Container Registry (ACR).
      - Deploys the Docker container to Azure Web App Service.
+
+![data pipeline](data_pipeline.png)
 
 ## Setup Instruction
 

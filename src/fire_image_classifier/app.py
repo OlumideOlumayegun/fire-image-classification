@@ -26,7 +26,7 @@ def home():
 @app.route("/train", methods=['GET','POST'])
 @cross_origin()
 def trainRoute():
-    os.system("python main.py")
+    os.system("python src/fire_image_classifier/main.py")
     #os.system("dvc repro")
     return "Training done successfully!"
 

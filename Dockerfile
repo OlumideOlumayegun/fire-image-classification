@@ -35,4 +35,4 @@ RUN python -m pip install --upgrade pip setuptools
 
 RUN python -m pip install -c constraints.txt .
 
-CMD ["python3", "src\fire_image_classifier\app.py"]
+CMD ["python3", "src/fire_image_classifier/app.py"]
